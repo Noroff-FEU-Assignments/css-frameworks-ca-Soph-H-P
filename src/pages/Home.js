@@ -1,11 +1,14 @@
 import React from 'react'
 
+import PageContainer from '../components/layout/PageContainer'
+
 const Home = () => {
     return (
-        <div>
+        <PageContainer>
             Homliness
-        </div>
+        </PageContainer>
     )
 }
 
 export default Home
+
