@@ -1,0 +1,10 @@
+.intro__container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  @media (min-width: $menu-break-width) {
+    .intro__paragraph {
+      color: $color-primary;
+    }
+  }
+}

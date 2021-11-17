@@ -1,0 +1,36 @@
+.navbar-light {
+  .navbar-brand {
+    color: $color-primary !important;
+    font-style: italic;
+    font-family: $font-serif;
+  }
+
+  .navbar-toggler {
+    border: none;
+    color: transparent !important;
+  }
+
+  .navbar-nav > a {
+    color: $color-navlink;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+
+  .navbar-nav > a.active {
+    background-color: white;
+    
+  }
+
+  @media (max-width: $menu-break-width) {
+    .navbar-nav > a {
+        margin: 10px -12px;
+        padding: 5px 12px 5px 12px;
+        border-radius: none;
+      }
+  }
+  //   .nav-link.active {
+  //     color: $color-primary !important;
+  //   }
+}

@@ -1,0 +1,33 @@
+.accordion {
+  box-shadow: 0px 16px 22px rgba(0, 0, 0, 0.06);
+  margin-bottom: 3rem;
+
+  .accordion-body {
+    background: $color-accordian;
+  }
+
+  .accordion-item {
+    border: none;
+  }
+
+  .accordion-button {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-family: $font-sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .accordion-button:not(.collapsed) {
+    border-top: none;
+    border-bottom: $color-primary solid 1px;
+  }
+
+  .container {
+    padding-top: 1rem;
+  }
+
+  .accordion__social {
+    justify-content: center;
+    align-items: center;
+    color: $color-navlink;
+  }
+}

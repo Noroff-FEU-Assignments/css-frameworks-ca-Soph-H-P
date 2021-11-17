@@ -1,0 +1,65 @@
+// custom
+$color-primary: #e92569;
+$color-secondary: #767676;
+$color-nav: #efefef;
+$color-navlink: #0a0a0a;
+$color-accordian: radial-gradient(#fff 0%, #f5f5f5 100%);
+$color-background: radial-gradient(#fff 0%, #e5e5e5 100%);
+
+$font-serif: 'Playfair Display', serif;
+$font-sans-serif: 'Lato', sans-serif;
+
+$menu-break-width: 768px;
+
+// bootstrap
+//general
+$theme-colors: (
+  'primary': $color-primary,
+  'light': $color-nav,
+);
+
+$body-color: $color-secondary;
+
+$border-radius: 5px;
+
+//typography
+$font-family-base: $font-sans-serif;
+$font-family-heading: $font-serif;
+$headings-color: $color-primary;
+
+//carousel
+$carousel-indicator-height: 30px;
+$carousel-indicator-opacity: 1;
+$carousel-indicator-spacer: 0.5rem;
+
+//accordion
+$accordion-button-color: $color-primary;
+$accordion-button-bg: white;
+$accordion-button-active-bg: tint-color($color-primary, 90%);
+$accordion-button-active-color: shade-color($color-primary, 10%) !default;
+$accordion-button-focus-border-color: $color-primary;
+$accordion-button-focus-box-shadow: none;
+$accordion-button-icon: none;
+$accordion-button-active-icon: none;
+$accordion-border-radius: 10px;
+
+//tabs
+$nav-link-color: $color-primary;
+$nav-link-hover-color:  $color-secondary;
+$nav-tabs-link-active-color: $color-secondary;
+$nav-tabs-link-active-bg: white;
+
+
+// $input-bg: $colour-input;
+// $input-border-color: $colour-input;
+// $border-radius: 3px;
+
+// $input-placeholder-color: white;
+// $input-plaintext-color: white;
+
+
+// $body-bg: $color-background;
+// $body-color: $colour-secondary;
+
+// $card-bg: transparent;
+// $card-cap-bg: white;

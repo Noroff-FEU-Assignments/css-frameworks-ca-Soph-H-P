@@ -1,1 +1,13 @@
-@import "~bootstrap/scss/bootstrap";
+@import './partials/custom';
+@import './partials/base';
+@import './partials/typography';
+@import './partials/navigation';
+@import './partials/footer';
+@import './partials/carousel';
+@import './partials/intro';
+@import './partials/tabs';
+@import './partials/accordion';
+// @import './partials/accordion';
+// @import './partials/jumbo';
+
+@import '../../node_modules/bootstrap/scss/bootstrap';

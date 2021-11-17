@@ -1,0 +1,19 @@
+.tab-content {
+  background-color: white;
+  margin-top: -1rem;
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+  border-radius: 0px 10px 10px 10px;
+
+  .tab-pane.active {
+    display: flex;
+  }
+
+  img {
+    padding-right: 20px;
+  }
+
+  .tabs__social {
+    color: black;
+  }
+}
