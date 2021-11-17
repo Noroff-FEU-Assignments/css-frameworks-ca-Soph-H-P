@@ -22,6 +22,9 @@ $body-color: $color-secondary;
 
 $border-radius: 5px;
 
+$input-btn-focus-box-shadow: none;
+$link-hover-color: $color-primary;
+
 //typography
 $font-family-base: $font-sans-serif;
 $font-family-heading: $font-serif;
@@ -36,7 +39,7 @@ $carousel-indicator-spacer: 0.5rem;
 $accordion-button-color: $color-primary;
 $accordion-button-bg: white;
 $accordion-button-active-bg: tint-color($color-primary, 90%);
-$accordion-button-active-color: shade-color($color-primary, 10%) !default;
+$accordion-button-active-color: shade-color($color-primary, 10%);
 $accordion-button-focus-border-color: $color-primary;
 $accordion-button-focus-box-shadow: none;
 $accordion-button-icon: none;
@@ -45,9 +48,16 @@ $accordion-border-radius: 10px;
 
 //tabs
 $nav-link-color: $color-primary;
-$nav-link-hover-color:  $color-secondary;
+$nav-link-hover-color: $color-secondary;
 $nav-tabs-link-active-color: $color-secondary;
 $nav-tabs-link-active-bg: white;
+
+//pagination
+$pagination-color: $color-primary;
+$pagination-active-bg: $color-primary;
+$pagination-border-color: $color-primary;
+
+//cards
 
 
 // $input-bg: $colour-input;
@@ -56,7 +66,6 @@ $nav-tabs-link-active-bg: white;
 
 // $input-placeholder-color: white;
 // $input-plaintext-color: white;
-
 
 // $body-bg: $color-background;
 // $body-color: $colour-secondary;

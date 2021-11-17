@@ -1,0 +1,14 @@
+.card {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+
+  margin: 1rem auto;
+
+  .card-title {
+    color: $color-navlink;
+  }
+
+  button {
+    border-right: 2rem $color-secondary solid;
+    width: 100%;
+  }
+}

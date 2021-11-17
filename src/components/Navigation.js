@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button';
 
 export const Navigation = (props) => {
   return (
-    <Navbar bg="light" expand="md">
+    <Navbar bg="light" expand="md" fixed="top">
       <Container >
         <Navbar.Brand href="/">The YAY Company</Navbar.Brand>
         <Navbar.Toggle />
