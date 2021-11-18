@@ -15,7 +15,6 @@ footer {
   }
 
   @media (min-width: $menu-break-width) {
-
     svg {
       margin: 0 10px;
     }
@@ -27,9 +26,9 @@ footer {
     .footer__copy--right {
       text-align: right;
     }
-    
+
     .row {
-    padding: 10px 0px;
-  }
+      padding: 10px 0px;
+    }
   }
 }

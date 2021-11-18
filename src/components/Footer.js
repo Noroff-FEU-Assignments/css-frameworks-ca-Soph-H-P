@@ -16,8 +16,12 @@ export const Footer = () => {
             <FontAwesomeIcon icon={faVimeoV} color="#767676" size="2x" />
             <FontAwesomeIcon icon={faYoutube} color="#767676" size="2x" />
           </Col>
-          <Col xs={6} md={4}>hello@yay.com</Col>
-          <Col  className="footer__copy--right"xs={6} md={4}>Copyright 2020</Col>
+          <Col xs={6} md={4}>
+            hello@yay.com
+          </Col>
+          <Col className="footer__copy--right" xs={6} md={4}>
+            Copyright 2020
+          </Col>
         </Row>
       </Container>
     </footer>

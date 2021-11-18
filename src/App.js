@@ -2,7 +2,6 @@ import React from 'react';
 import './sass/style.scss';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 
-
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import News from './pages/News';

@@ -12,7 +12,7 @@ const Contact = () => {
     <Container>
       <Row>
         <Col md={{ span: 6, order: 'last' }}>
-            <ContactDetails />
+          <ContactDetails />
         </Col>
         <Col className="contact__container" md={6}>
           <h1>Submit your details</h1>
