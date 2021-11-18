@@ -3,13 +3,11 @@
     color: $color-primary !important;
     font-style: italic;
     font-family: $font-serif;
-    padding-bottom: 10px;
   }
 
   .navbar-toggler {
     border: none;
     color: transparent !important;
-    padding-bottom: 10px;
   }
 
   .navbar-nav > a {
@@ -27,6 +25,14 @@
   @media (max-width: $menu-break-width) {
     &.navbar-expand-md {
       padding-bottom: 0;
+    }
+
+    .navbar-brand {
+      padding-bottom: 10px;
+    }
+
+    .navbar-toggler {
+      padding-bottom: 10px;
     }
 
     form {
