@@ -1,5 +1,12 @@
 # CSS Frameworks Course Assignment
 
+## Completed design using React Bootstrap and SCSS
+
+Where appropriate I customised the Bootstrap variables in a custom scss file. I then created partials to add more specific styles.
+
+I created page components that could be linked to using react router and then added components within these pages, to keep the code logically organised.
+
+
 ## Brief
 
 From the supplied design, use Bootstrap or React Bootstrap to create a responsive website.
