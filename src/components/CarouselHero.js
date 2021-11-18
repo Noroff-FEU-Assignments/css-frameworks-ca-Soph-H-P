@@ -2,7 +2,7 @@ import React from 'react';
 
 import Carousel from 'react-bootstrap/Carousel';
 
-export const HeroSection = () => {
+export const CarouselHero = () => {
   return (
     <Carousel controls={false}>
       <Carousel.Item interval={6000}>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Container from 'react-bootstrap/Container';
 
-import { HeroSection } from '../components/HeroSection';
+import { CarouselHero } from '../components/CarouselHero';
 import { IntroTextHome } from '../components/IntroTextHome';
 import { AccordionContent } from '../components/AccordionContent';
 import { TabsContent } from '../components/TabsContent';
@@ -10,7 +10,7 @@ import { TabsContent } from '../components/TabsContent';
 const Home = () => {
   return (
     <main>
-      <HeroSection />
+      <CarouselHero />
       <IntroTextHome />
       <Container>
         <AccordionContent />
