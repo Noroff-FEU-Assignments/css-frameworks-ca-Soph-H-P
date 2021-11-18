@@ -3,11 +3,13 @@
     color: $color-primary !important;
     font-style: italic;
     font-family: $font-serif;
+    padding-bottom: 10px;
   }
 
   .navbar-toggler {
     border: none;
     color: transparent !important;
+    padding-bottom: 10px;
   }
 
   .navbar-nav > a {
