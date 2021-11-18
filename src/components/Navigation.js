@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 export const Navigation = (props) => {
   return (
     <Navbar bg="light" expand="md" fixed="top">
-      <Container >
+      <Container fluid="md">
         <Navbar.Brand href="/">The YAY Company</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>

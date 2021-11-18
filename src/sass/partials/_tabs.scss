@@ -1,10 +1,17 @@
-.tab-content {
-  background-color: white;
-  margin-top: -1rem;
-  margin-bottom: 4rem;
-  padding: 1.5rem;
-  border-radius: 0px 10px 10px 10px;
+.tabs__container {
+  .nav-tabs {
+    border-bottom: none;
+  }
 
+  .tab-content {
+    background-color: white;
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+    padding: 1.5rem;
+    border: 1px solid #d1d1d1;
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 0px 16px 22px rgba(0, 0, 0, 0.06);
+  }
   .tab-pane.active {
     display: flex;
   }

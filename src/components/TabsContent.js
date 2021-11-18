@@ -12,7 +12,7 @@ import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export const TabsContent = () => {
   return (
-    <div className="d-none d-md-block">
+    <div className="d-none d-md-block tabs__container">
       <Tabs defaultActiveKey="one" id="controlled-tab-example" className="mb-3">
         <Tab eventKey="one" title="First">
           <Image src="./images/tab/tab-1.jpg" fluid />
@@ -23,7 +23,7 @@ export const TabsContent = () => {
               lectus non maximus. Sed condimentum mattis rhoncus.
             </Row>
             <Row className="tabs__social d-flex justify-content-start align-items-center">
-              <Col md={2} className="text-center">
+              <Col md={3} lg={2} className="text-center">
                 SHARE
               </Col>
               <Col md={1} className="text-center">
@@ -44,7 +44,7 @@ export const TabsContent = () => {
               quibusdam a! Necessitatibus ea, quae similique fugit quidem distinctio.
             </Row>
             <Row className="tabs__social d-flex justify-content-start align-items-center">
-              <Col md={2} className="text-center">
+              <Col md={3} lg={2} className="text-center">
                 SHARE
               </Col>
               <Col md={1} className="text-center">
@@ -65,7 +65,7 @@ export const TabsContent = () => {
               debitis, labore inventore odit cupiditate nulla quis repellat accusamus dicta?
             </Row>
             <Row className="tabs__social d-flex justify-content-start align-items-center">
-              <Col md={2} className="text-center">
+              <Col md={3} lg={2} className="text-center">
                 SHARE
               </Col>
               <Col md={1} className="text-center">

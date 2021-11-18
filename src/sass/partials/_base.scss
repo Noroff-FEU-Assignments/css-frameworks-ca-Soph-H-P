@@ -9,13 +9,14 @@ body,
 }
 
 body {
-  background: $color-background;
+  background: $color-background no-repeat;
+  background-attachment: fixed;
 }
 
 #root {
   display: flex;
   flex-direction: column;
-  margin-top: 70px;
+  margin-top: 56px;
 }
 
 .wrapper {

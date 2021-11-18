@@ -38,7 +38,6 @@ const News = () => {
           <NewsCard image="./images/news/news-8.jpg" />
         </Col>
       </Row>
-
       <PaginationButtons />
     </Container>
   );

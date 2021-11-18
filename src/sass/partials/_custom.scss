@@ -22,7 +22,11 @@ $body-color: $color-secondary;
 
 $border-radius: 5px;
 
+$input-border-color: transparent;
+$input-focus-border-color: $color-primary;
+
 $input-btn-focus-box-shadow: none;
+
 $link-hover-color: $color-primary;
 
 //typography
@@ -58,7 +62,6 @@ $pagination-active-bg: $color-primary;
 $pagination-border-color: $color-primary;
 
 //cards
-
 
 // $input-bg: $colour-input;
 // $input-border-color: $colour-input;

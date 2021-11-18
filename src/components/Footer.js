@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <footer>
       <Container className="text-center">
-        <Row>
+        <Row className="align-items-center">
           <Col className="footer__icon--left" xs={12} md={4}>
             <FontAwesomeIcon icon={faVimeoV} color="#767676" size="2x" />
             <FontAwesomeIcon icon={faYoutube} color="#767676" size="2x" />

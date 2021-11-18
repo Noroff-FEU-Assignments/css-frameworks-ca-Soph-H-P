@@ -1,0 +1,19 @@
+.contact-details__container {
+  width: max-content;
+
+  > div {
+    margin: 1rem 0rem 2rem 1rem;
+  }
+
+  svg {
+    margin-right: 2rem;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+
+  @media (min-width: $menu-break-width) {
+    margin-top: 6.5rem;
+  }
+}

@@ -1,14 +1,28 @@
-.carousel-indicators {
-  button {
-    border-radius: 5px !important;
-    border-top: none !important;
-    border-bottom: none !important;
-    background: #fff;
-    filter: drop-shadow(0px 3px 6px #000);
-    margin-bottom: 1rem;
+.carousel {
+  
+  max-height: 500px;
+  overflow: hidden;
+
+  .carousel-indicators {
+    button {
+      border-radius: 5px !important;
+      border-top: none !important;
+      border-bottom: none !important;
+      background: #fff;
+      filter: drop-shadow(0px 3px 6px #000);
+      margin-bottom: 1rem;
+    }
+
+    button.active {
+      background-color: $color-primary;
+    }
   }
 
-  button.active {
-    background-color: $color-primary;
+  @media (max-width: $menu-break-width) {
+
+    img {
+      max-height: 300px;
+      width: auto !important;
+    }
   }
 }
