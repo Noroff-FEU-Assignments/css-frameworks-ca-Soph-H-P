@@ -17,10 +17,13 @@ export const ContactForm = () => {
       </Form.Group>
 
       <Form.Label htmlFor="basic-url">Website</Form.Label>
-      <InputGroup className="mb-3">
+      <InputGroup className="mb-3 d-none d-md-flex ">
         <InputGroup.Text id="basic-addon3">https://</InputGroup.Text>
         <Form.Control id="basic-url" aria-describedby="basic-addon3" />
       </InputGroup>
+      <Form.Group className="d-md-none" controlId="formBasicEmail">
+        <Form.Control type="text" />
+      </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Message</Form.Label>
         <Form.Control as="textarea" style={{ height: '224px', resize: 'none' }} />
